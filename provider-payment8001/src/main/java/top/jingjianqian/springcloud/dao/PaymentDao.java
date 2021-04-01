@@ -1,10 +1,13 @@
 package top.jingjianqian.springcloud.dao;
 
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import top.jingjianqian.springcloud.entities.Payment;
 
+@Mapper
 public interface PaymentDao {
-    int create(Payment payment);
+
+    public  int create(Payment payment);
 
     public Payment getPaymentById(@Param("id") Long  id);
 }
