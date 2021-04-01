@@ -10,6 +10,10 @@
   <modules>
     <module>provider-payment8001</module>
     <module>consumer-order80</module>
+      <module>api-common</module>
+      <module>server-eureka7001</module>
+    <module>server-eureka7002</module>
+      <module>top.jingjinqian.springcloud.payment</module>
   </modules>
   <packaging>pom</packaging>
 

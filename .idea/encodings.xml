@@ -2,10 +2,18 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-payment8001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-payment8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-payment8002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka7001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-eureka7002/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
