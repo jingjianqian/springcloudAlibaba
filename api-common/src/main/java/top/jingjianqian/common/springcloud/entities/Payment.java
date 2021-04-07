@@ -1,4 +1,4 @@
-package top.jingjianqian.springcloud.entities;
+package top.jingjianqian.common.springcloud.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

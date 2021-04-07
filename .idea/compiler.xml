@@ -10,12 +10,14 @@
         <module name="api-common" />
         <module name="server-eureka7002" />
         <module name="server-eureka7001" />
+        <module name="provider-payment8002" />
         <module name="provider-payment8001" />
         <module name="consumer-order80" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="provider-payment8002" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="top.jingjinqian.springcloud.payment" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

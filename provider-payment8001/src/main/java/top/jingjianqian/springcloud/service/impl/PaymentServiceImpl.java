@@ -2,8 +2,8 @@ package top.jingjianqian.springcloud.service.impl;
 
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Service;
+import top.jingjianqian.common.springcloud.entities.Payment;
 import top.jingjianqian.springcloud.dao.PaymentDao;
-import top.jingjianqian.springcloud.entities.Payment;
 import top.jingjianqian.springcloud.service.PaymentService;
 
 import javax.annotation.Resource;

@@ -1,8 +1,11 @@
-package top.jingjianqian.springcloud.entities;
+package top.jingjianqian.common.springcloud.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import top.jingjianqian.common.springcloud.entities.ResultCode;
+import top.jingjianqian.common.springcloud.entities.CommonResult;
+import top.jingjianqian.springcloud.entities.IErrorCode;
 
 
 

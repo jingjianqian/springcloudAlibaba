@@ -1,4 +1,4 @@
-top\jingjianqian\springcloud\entities\CommonResult.class
-top\jingjianqian\springcloud\entities\ResultCode.class
-top\jingjianqian\springcloud\entities\Payment.class
+top\jingjianqian\common\springcloud\entities\CommonResult.class
+top\jingjianqian\common\springcloud\entities\Payment.class
+top\jingjianqian\common\springcloud\entities\ResultCode.class
 top\jingjianqian\springcloud\entities\IErrorCode.class

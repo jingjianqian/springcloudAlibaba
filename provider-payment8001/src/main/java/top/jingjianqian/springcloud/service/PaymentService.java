@@ -1,7 +1,7 @@
 package top.jingjianqian.springcloud.service;
 
 import org.apache.ibatis.annotations.Param;
-import top.jingjianqian.springcloud.entities.Payment;
+import top.jingjianqian.common.springcloud.entities.Payment;
 
 
 public interface PaymentService {
