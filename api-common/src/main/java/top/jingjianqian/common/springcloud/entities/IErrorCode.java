@@ -1,4 +1,4 @@
-package top.jingjianqian.springcloud.entities;
+package top.jingjianqian.common.springcloud.entities;
 
 /**
  * 封装API的错误码

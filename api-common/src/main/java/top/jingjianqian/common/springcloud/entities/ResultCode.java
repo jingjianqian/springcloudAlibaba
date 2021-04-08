@@ -1,6 +1,6 @@
 package top.jingjianqian.common.springcloud.entities;
 
-public enum ResultCode implements top.jingjianqian.springcloud.entities.IErrorCode {
+public enum ResultCode implements IErrorCode {
     SUCCESS(200, "操作成功"),
     FAILED(500, "操作失败"),
     VALIDATE_FAILED(404, "参数检验失败"),
