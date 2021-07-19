@@ -13,6 +13,19 @@
     <artifactId>server-eureka7002</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <!-- tess4j用于识别验证码-->
+        <dependency>
+            <groupId>net.sourceforge.tess4j</groupId>
+            <artifactId>tess4j</artifactId>
+            <version>4.5.1</version>
+        </dependency>
+
         <!--eureka-server-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -46,6 +59,16 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.64</version>
         </dependency>
     </dependencies>
 
