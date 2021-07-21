@@ -22,22 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="服务发现之nacos">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider-payment9002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider-payment9002/src/main/java/springcloudalibaba/ServerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/api-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springcloudAlibaba.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-provider-payment9001/src/main/java/top/jingjianqian/springcloudalibaba/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-payment9001/src/main/java/top/jingjianqian/springcloudalibaba/ServerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-provider-payment9001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-provider-payment9001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-payment9001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-provider-payment9001/target/classes/top/jingjianqian/springcloudalibaba/ServerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-provider-payment9001/target/classes/top/jingjianqian/springcloudalibaba/ServerApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="服务发现之nacos-集群" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -256,7 +241,7 @@
       <workItem from="1626698323526" duration="3409000" />
       <workItem from="1626784742122" duration="22000" />
       <workItem from="1626832418325" duration="19000" />
-      <workItem from="1626878557794" duration="2345000" />
+      <workItem from="1626878557794" duration="2677000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
@@ -272,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626702815807</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="服务发现之nacos-集群">
+      <created>1626881884944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1626881884944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +285,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springboot基本的CURD功能实现" />
     <MESSAGE value="服务发现之nacos" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务发现之nacos" />
+    <MESSAGE value="服务发现之nacos-集群" />
+    <option name="LAST_COMMIT_MESSAGE" value="服务发现之nacos-集群" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1618825072752">
@@ -367,10 +360,18 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1618825258778" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620785158228" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1626882043934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626882043934" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626702725083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626702725083" />
+    <state x="631" y="307" key="git4idea.merge.GitPullDialog" timestamp="1626881909347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626881909347" />
     <state x="334" y="180" key="new project wizard" timestamp="1626881703055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
