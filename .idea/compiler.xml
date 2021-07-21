@@ -8,8 +8,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-common" />
+        <module name="nacos-provider-payment9001" />
         <module name="server-eureka7002" />
         <module name="server-eureka7001" />
+        <module name="nacos-provider-payment9002" />
         <module name="provider-payment8002" />
         <module name="provider-payment8001" />
         <module name="consumer-order80" />
