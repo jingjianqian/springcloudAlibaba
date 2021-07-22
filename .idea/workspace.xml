@@ -249,7 +249,7 @@
       <workItem from="1626698323526" duration="3409000" />
       <workItem from="1626784742122" duration="22000" />
       <workItem from="1626832418325" duration="19000" />
-      <workItem from="1626878557794" duration="3476000" />
+      <workItem from="1626878557794" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
@@ -279,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626882330950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="服务发现之nacos-集群">
+      <created>1626883064917</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1626883064917</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,25 +337,25 @@
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1618825126327" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621261319673" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620785153046" />
-    <state width="1481" height="262" key="GridCell.Tab.0.bottom" timestamp="1626882430947">
+    <state width="1467" height="399" key="GridCell.Tab.0.bottom" timestamp="1626883762387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626882430947" />
+    <state width="1467" height="399" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626883762387" />
     <state width="1481" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620814105232" />
-    <state width="1481" height="262" key="GridCell.Tab.0.center" timestamp="1626882430947">
+    <state width="1467" height="399" key="GridCell.Tab.0.center" timestamp="1626883762387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="262" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626882430947" />
+    <state width="1467" height="399" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626883762387" />
     <state width="1481" height="218" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620814105232" />
-    <state width="1481" height="262" key="GridCell.Tab.0.left" timestamp="1626882430947">
+    <state width="1467" height="399" key="GridCell.Tab.0.left" timestamp="1626883762387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="262" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626882430947" />
+    <state width="1467" height="399" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626883762387" />
     <state width="1481" height="218" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620814105232" />
-    <state width="1481" height="262" key="GridCell.Tab.0.right" timestamp="1626882430947">
+    <state width="1467" height="399" key="GridCell.Tab.0.right" timestamp="1626883762387">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1481" height="262" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626882430947" />
+    <state width="1467" height="399" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626883762387" />
     <state width="1481" height="218" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620814105232" />
     <state width="1481" height="521" key="GridCell.Tab.1.bottom" timestamp="1620794077505">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -375,18 +382,18 @@
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1618825258778" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1620785158228" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1626882923758">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1626883687735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626882923758" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626883687735" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626702725083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626702725083" />
-    <state x="631" y="307" key="git4idea.merge.GitPullDialog" timestamp="1626881909347">
+    <state x="631" y="307" key="git4idea.merge.GitPullDialog" timestamp="1626883379009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="631" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626881909347" />
+    <state x="631" y="307" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626883379009" />
     <state x="334" y="180" key="new project wizard" timestamp="1626881703055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
