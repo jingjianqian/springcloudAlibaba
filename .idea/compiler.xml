@@ -15,6 +15,7 @@
         <module name="provider-payment8002" />
         <module name="provider-payment8001" />
         <module name="consumer-order80" />
+        <module name="nacos-consumer-oerder83" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
