@@ -1,0 +1,28 @@
+server:
+  port: 9107
+
+spring:
+  application:
+    name: platform-approve
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  39.104.205.172:8848
+      config:
+        server-addr: 39.104.205.172:8848
+        file-extension: yaml
+        encode: UTF-8
+  devtools:
+    restart:
+      additional-paths: /src/main
+      enabled: false
+
+
+#${spring-application-name}-${spring.profiles.active}.${spring.cloud.nacos.config.extension}
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

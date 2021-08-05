@@ -12,6 +12,7 @@
         <module name="platform-base" />
         <module name="server-eureka7002" />
         <module name="server-eureka7001" />
+        <module name="platform-cache" />
         <module name="nacos-provider-payment9002" />
         <module name="provider-payment8002" />
         <module name="provider-payment8001" />

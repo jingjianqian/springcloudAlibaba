@@ -1,20 +1,37 @@
 package com.ucap.ms.approve.vo;
 
+import com.ucap.ms.approve.config.ConfigClientController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+
+import javax.annotation.Resource;
 
 @Component
 public class ApproveAuditItemApi {
 
     private static Logger log = LoggerFactory.getLogger(ApproveAuditItemApi.class);
+
+
+    @Resource
+    private ConfigClientController configClientController;
+
+
+
     /**
-     * from nacos config
+     * 获取accessToken
+     * @return
+     * @param refreshToken
      */
-    @Value("${test}")
-    private String GET_TOKEN_URL;
-    @Value("${}")
-    private  String GET_DEPTAUDITITEM_URL;
+    public String getAccessToken(Boolean refreshToken){
+        try {
+            System.out.println(configClientController.toString());
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
 
 }
