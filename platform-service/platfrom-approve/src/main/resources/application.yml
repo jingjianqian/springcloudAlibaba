@@ -1,0 +1,17 @@
+server:
+  port: 9106
+
+spring:
+  application:
+    name: platform-approve
+  cloud:
+    nacos:
+      discovery:
+        server-addr:  39.104.205.172:8848
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

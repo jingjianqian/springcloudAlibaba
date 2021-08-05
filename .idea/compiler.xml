@@ -9,16 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-common" />
         <module name="nacos-provider-payment9001" />
+        <module name="platform-base" />
         <module name="server-eureka7002" />
         <module name="server-eureka7001" />
         <module name="nacos-provider-payment9002" />
         <module name="provider-payment8002" />
         <module name="provider-payment8001" />
         <module name="consumer-order80" />
+        <module name="platfrom-approve" />
+        <module name="platform-service" />
         <module name="nacos-consumer-oerder83" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="platform-auth" target="1.8" />
       <module name="test" target="1.8" />
       <module name="top.jingjinqian.springcloud.payment" target="1.8" />
     </bytecodeTargetLevel>

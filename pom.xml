@@ -17,6 +17,8 @@
     <module>nacos-provider-payment9001</module>
     <module>nacos-provider-payment9002</module>
     <module>nacos-consumer-oerder83</module>
+    <module>platform-service</module>
+    <module>platform-common</module>
   </modules>
   <packaging>pom</packaging>
 
