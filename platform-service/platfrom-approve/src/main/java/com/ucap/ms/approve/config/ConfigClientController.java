@@ -38,6 +38,14 @@ public class ConfigClientController implements Serializable {
     @Value("${config.urls.get_deptAudiItem_url}")
     private String GET_DEPTAUDITITEM_URL;
 
+    //参数名
+    @Value("${config.params.dept_code}")
+    private String DEPT_CODE;
+    @Value("${config.params.time_stamp}")
+    private String TIME_STAMP;
+
+
+
     public String getKEY_AUDIT_ITEM_API_TOKEN() {
         return KEY_AUDIT_ITEM_API_TOKEN;
     }
@@ -116,6 +124,14 @@ public class ConfigClientController implements Serializable {
 
     public void setGET_DEPTAUDITITEM_URL(String GET_DEPTAUDITITEM_URL) {
         this.GET_DEPTAUDITITEM_URL = GET_DEPTAUDITITEM_URL;
+    }
+
+    public String getDEPT_CODE() {
+        return DEPT_CODE;
+    }
+
+    public void setDEPT_CODE(String DEPT_CODE) {
+        this.DEPT_CODE = DEPT_CODE;
     }
 
     @Override

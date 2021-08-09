@@ -23,26 +23,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/utils/BaseSerializationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/utils/BaseTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/utils/BaseValidUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/service/CacheCollectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/service/CacheService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/service/imp/CacheMyJedisPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/service/imp/CacheSingleRedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/util/CommonCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/util/CommonCacheUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/exception/BaseErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/exception/BaseInterfaceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/exception/GlobalBaseErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/api/payload/RequestTokenPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/api/vo/ApproveAuditItemApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/api/vo/ApproveAuditItemsSourceApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/exception/RequestInferfaceException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-common/platform-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-common/platform-base/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-common/platform-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-common/platform-cache/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/util/CacheConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-service/platform-auth/platform-auth.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/util/CommonCacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-common/platform-cache/src/main/java/com/ucap/ms/cache/util/CommonCacheConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-service/platfrom-approve/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/ApproveServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/ApproveServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/config/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/config/ConfigClientController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/controller/ApproveStemItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/controller/ApproveStemItemController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/vo/ApproveAuditItemApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/vo/ApproveAuditItemApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/vo/ApproveAuditItemApi.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,11 +134,11 @@
       <recent name="D:\my\code\java\springcloudAlibaba\nacos-provider-payment9001\src\main\java\top\jingjianqian\springcloudalibaba" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ucap.ms.base.exception" />
+      <recent name="com.ucap.ms.approve.exception" />
+      <recent name="com.ucap.ms.approve.api.payload" />
       <recent name="com.ucap.ms.base.utils" />
       <recent name="com.ucap.ms.cache.service.imp" />
-      <recent name="com.ucap.ms.cache.util.service" />
-      <recent name="com.ucap.ms.base.data" />
-      <recent name="com.ucap.ms.cache" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\java" />
@@ -215,8 +209,7 @@
     <configuration name="ApproveServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="platfrom-approve" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ucap.ms.approve.ApproveServer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
@@ -284,6 +277,7 @@
       <item itemvalue="Application.PaymentMain8001" />
       <item itemvalue="Application.ServerApp" />
       <item itemvalue="Application.ServerApp (1)" />
+      <item itemvalue="Spring Boot.ApproveServer" />
       <item itemvalue="Spring Boot.ServerApp" />
       <item itemvalue="Spring Boot.ServerApp (1)" />
       <item itemvalue="Spring Boot.EurekaServerApp" />
@@ -292,7 +286,6 @@
       <item itemvalue="Spring Boot.OrderMain83" />
       <item itemvalue="Spring Boot.EurekaApp" />
       <item itemvalue="Spring Boot.Payment2App" />
-      <item itemvalue="Spring Boot.ApproveServer" />
     </list>
     <recent_temporary>
       <list>
@@ -354,7 +347,7 @@
       <workItem from="1627475336777" duration="4593000" />
       <workItem from="1627519577191" duration="537000" />
       <workItem from="1628147031108" duration="26475000" />
-      <workItem from="1628495421654" duration="8111000" />
+      <workItem from="1628495421654" duration="16574000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
@@ -457,29 +450,30 @@
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1627448396761" />
     <state x="2250" y="9" key="#Project_Structure/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628157868682" />
-    <state x="354" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628498443925">
+    <state x="354" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1628510077764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="354" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628498443925" />
+    <state x="354" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628510077764" />
     <state x="2186" y="145" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498209110" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620785096758" />
     <state x="697" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1626702536968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="697" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1626702536968" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1628169022691">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1628510466341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628169022691" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628510466341" />
     <state x="2494" y="186" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628157790105" />
-    <state x="2502" y="279" width="756" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1628498136034">
-      <screen x="1920" y="0" width="1440" height="860" />
-    </state>
-    <state x="2502" y="279" width="756" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498136034" />
-    <state x="536" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1628503581870">
+    <state x="776" y="337" width="756" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1628509042558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="536" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628503581870" />
+    <state x="776" y="337" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628509042558" />
+    <state x="2502" y="279" width="756" height="421" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498136034" />
+    <state x="536" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1628512458837">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="536" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628512458837" />
     <state x="665" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1628503496337">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -488,6 +482,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="333" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620793642610" />
+    <state x="657" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1628512649000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628512649000" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1628498520330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -495,83 +493,83 @@
     <state x="2475" y="227" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628148590976" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621261319673" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1620785153046" />
-    <state width="1877" height="197" key="GridCell.Tab.0.bottom" timestamp="1628505674208">
+    <state width="1495" height="143" key="GridCell.Tab.0.bottom" timestamp="1628514801489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628505674208" />
+    <state width="1495" height="143" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801489" />
     <state width="1106" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="815" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627479419003" />
-    <state width="1877" height="197" key="GridCell.Tab.0.center" timestamp="1628505674208">
+    <state width="1495" height="143" key="GridCell.Tab.0.center" timestamp="1628514801488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628505674208" />
+    <state width="1495" height="143" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801488" />
     <state width="1106" height="199" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="815" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627479419002" />
-    <state width="1877" height="197" key="GridCell.Tab.0.left" timestamp="1628505674208">
+    <state width="1495" height="143" key="GridCell.Tab.0.left" timestamp="1628514801486">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628505674208" />
+    <state width="1495" height="143" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801486" />
     <state width="1106" height="199" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285488" />
     <state width="1481" height="815" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627479419002" />
-    <state width="1877" height="197" key="GridCell.Tab.0.right" timestamp="1628505674208">
+    <state width="1495" height="143" key="GridCell.Tab.0.right" timestamp="1628514801488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="197" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628505674208" />
+    <state width="1495" height="143" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801488" />
     <state width="1106" height="199" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="815" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627479419002" />
-    <state width="1499" height="282" key="GridCell.Tab.1.bottom" timestamp="1628504214796">
+    <state width="1495" height="143" key="GridCell.Tab.1.bottom" timestamp="1628514801491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1499" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628504214796" />
+    <state width="1495" height="143" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801491" />
     <state width="1106" height="199" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="521" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1620794077505" />
-    <state width="1499" height="282" key="GridCell.Tab.1.center" timestamp="1628504214796">
+    <state width="1495" height="143" key="GridCell.Tab.1.center" timestamp="1628514801491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1499" height="282" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628504214796" />
+    <state width="1495" height="143" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801491" />
     <state width="1106" height="199" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="521" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1620794077505" />
-    <state width="1499" height="282" key="GridCell.Tab.1.left" timestamp="1628504214796">
+    <state width="1495" height="143" key="GridCell.Tab.1.left" timestamp="1628514801490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1499" height="282" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628504214796" />
+    <state width="1495" height="143" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801490" />
     <state width="1106" height="199" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="521" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1620794077505" />
-    <state width="1499" height="282" key="GridCell.Tab.1.right" timestamp="1628504214796">
+    <state width="1495" height="143" key="GridCell.Tab.1.right" timestamp="1628514801491">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1499" height="282" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628504214796" />
+    <state width="1495" height="143" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801491" />
     <state width="1106" height="199" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498285489" />
     <state width="1481" height="521" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1620794077505" />
-    <state width="1106" height="239" key="GridCell.Tab.2.bottom" timestamp="1628498010584">
-      <screen x="1920" y="0" width="1440" height="860" />
+    <state width="1495" height="143" key="GridCell.Tab.2.bottom" timestamp="1628514801492">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1519" height="296" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628172677900" />
+    <state width="1495" height="143" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801492" />
     <state width="1106" height="239" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498010584" />
-    <state width="1106" height="239" key="GridCell.Tab.2.center" timestamp="1628498010584">
-      <screen x="1920" y="0" width="1440" height="860" />
+    <state width="1495" height="143" key="GridCell.Tab.2.center" timestamp="1628514801492">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1519" height="296" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628172677900" />
+    <state width="1495" height="143" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801492" />
     <state width="1106" height="239" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498010584" />
-    <state width="1106" height="239" key="GridCell.Tab.2.left" timestamp="1628498010583">
-      <screen x="1920" y="0" width="1440" height="860" />
+    <state width="1495" height="143" key="GridCell.Tab.2.left" timestamp="1628514801491">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1519" height="296" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628172677900" />
+    <state width="1495" height="143" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801491" />
     <state width="1106" height="239" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498010583" />
-    <state width="1106" height="239" key="GridCell.Tab.2.right" timestamp="1628498010584">
-      <screen x="1920" y="0" width="1440" height="860" />
+    <state width="1495" height="143" key="GridCell.Tab.2.right" timestamp="1628514801492">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1519" height="296" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628172677900" />
+    <state width="1495" height="143" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628514801492" />
     <state width="1106" height="239" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628498010584" />
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1628503422138">
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1628512381032">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628503422138" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628512381032" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620789432797" />
-    <state x="354" y="162" width="1227" height="851" key="SettingsEditor" timestamp="1628505485133">
+    <state x="354" y="162" width="1227" height="851" key="SettingsEditor" timestamp="1628510063907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="354" y="162" width="1227" height="851" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628505485133" />
+    <state x="354" y="162" width="1227" height="851" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628510063907" />
     <state x="2266" y="9" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628165465979" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1627475925039" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1628172056632">
@@ -604,10 +602,10 @@
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628166822209" />
     <state x="1993" y="147" key="new project wizard/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1628148296065" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1628503722605">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1628508890010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628503722605" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1628508890010" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627475910565" />
   </component>
   <component name="XDebuggerManager">
@@ -630,6 +628,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/api/vo/ApproveAuditItemApi.java</url>
+          <line>40</line>
+          <properties class="com.ucap.ms.approve.api.vo.ApproveAuditItemApi" method="getAccessToken">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/api/vo/ApproveAuditItemsSourceApi.java</url>
+          <line>48</line>
+          <properties class="com.ucap.ms.approve.api.vo.ApproveAuditItemsSourceApi" method="getAccessToken">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
