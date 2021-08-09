@@ -25,13 +25,12 @@ public class ApproveAuditItemApi {
      */
     public String getAccessToken(Boolean refreshToken){
         try {
-            System.out.println(configClientController.toString());
 
+            return configClientController.toString();
         } catch (Exception e) {
             e.printStackTrace();
+        }finally {
+            return "{'status':'11111'}";
         }
-        return null;
     }
-
-
 }
