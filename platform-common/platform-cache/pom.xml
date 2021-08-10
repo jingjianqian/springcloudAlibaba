@@ -46,7 +46,11 @@
         <artifactId>fastjson</artifactId>
         <version>1.2.29</version>
     </dependency>
-
+    <!--spring AOP-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-aop</artifactId>
+    </dependency>
 
     <dependency>
         <groupId>redis.clients</groupId>

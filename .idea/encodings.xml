@@ -28,6 +28,8 @@
     <file url="file://$PROJECT_DIR$/server-eureka7001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-eureka7002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/server-eureka7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-service/platform-inner-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web-service/platform-inner-web/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

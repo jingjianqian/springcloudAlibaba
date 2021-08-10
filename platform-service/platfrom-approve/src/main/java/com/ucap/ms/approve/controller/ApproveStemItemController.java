@@ -3,6 +3,8 @@ package com.ucap.ms.approve.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.ucap.ms.approve.api.vo.ApproveAuditItemApi;
+import com.ucap.ms.base.enums.CacheCodeEnum;
+import com.ucap.ms.cache.aspect.CacheAspectAnnotation;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -22,9 +24,10 @@ public class ApproveStemItemController {
     @Resource
     private ApproveAuditItemApi approveAuditItemApi;
 
+
+    @CacheAspectAnnotation(dataKey = "auditItemsNotifyDept", cacheCode = CacheCodeEnum.INNERWEB)
     @RequestMapping(value = "/auditItemsNotifyDept" , method = RequestMethod.POST)
     public JSONObject auditItemsNotifyDept(@RequestParam String deptCode){
-        System.out.println(restTemplate.toString());
         return approveAuditItemApi.getAuditItemsLimit(deptCode);
     }
 }

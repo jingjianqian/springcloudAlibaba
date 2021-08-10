@@ -27,14 +27,14 @@ public class ApproveAuditItemsSourceApi {
 
     public  JSONObject getAuditItemsDeptLimit(String dept_code,Long timestamp){
         try {
-            String accessToken = "cbae588b272cc80000890ffcff66a58a";//getAccessToken(); --
+            String accessToken = getAccessToken();
             if(accessToken == null){
                 throw new RequestInferfaceException("获取 access token 失败");
             }
             Map<String, Object> map = requestParamsDept(accessToken, dept_code, timestamp);
 
             RequestEntity<Map<String, Object>> requestEntity = RequestEntity.post(new URL(configClientController.getGET_DEPTAUDITITEM_URL()).toURI())
-                    .contentType(MediaType.APPLICATION_JSON_UTF8)
+                    .contentType(MediaType.APPLICATION_JSON)
                     .accept(MediaType.APPLICATION_JSON_UTF8)
                     .body(map);
             ResponseEntity<String> exchange = restTemplate.exchange(requestEntity, String.class);
@@ -63,7 +63,7 @@ public class ApproveAuditItemsSourceApi {
                 throw new RequestInferfaceException(payload.getStatus().getText());
             }
             access_token = payload.getCustom().getAccessToken();
-            //CacheUtil.getCache(CacheCodeEnum.INNERWEB.getValue()).add(KEY_AUDIT_ITEM_API_TOKEN, apiToken, 20L);
+            //CommonCacheUtil.getCache(CacheCodeEnum.INNERWEB.getValue()).add(configClientController.getKEY_AUDIT_ITEM_API_TOKEN(), access_token, 20L);
         }catch (Exception e){
             e.printStackTrace();
         }
@@ -80,7 +80,7 @@ public class ApproveAuditItemsSourceApi {
         if(timestamp != null){
             param.put("TIME_STAMP",timestamp);
         }
-        param.put("ITEM_LIMIT",100);//2020-12-31 新接口最大只能100
+        param.put("ITEM_LIMIT",30);//2020-12-31 新接口最大只能100
         param.put("IS_HISTORY", "0");
         map.put("param",param);
         return map;

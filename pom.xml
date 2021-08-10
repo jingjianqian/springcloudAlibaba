@@ -13,12 +13,13 @@
     <module>api-common</module>
     <module>server-eureka7001</module>
     <module>server-eureka7002</module>
-      <module>provider-payment8002</module>
+    <module>provider-payment8002</module>
     <module>nacos-provider-payment9001</module>
     <module>nacos-provider-payment9002</module>
     <module>nacos-consumer-oerder83</module>
     <module>platform-service</module>
     <module>platform-common</module>
+    <module>web-service</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -92,12 +93,6 @@
         <groupId>log4j</groupId>
         <artifactId>log4j</artifactId>
         <version>${log4j.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.projectlombok</groupId>
-        <artifactId>lombok</artifactId>
-        <version>${lombok.version}</version>
-        <optional>true</optional>
       </dependency>
     </dependencies>
   </dependencyManagement>

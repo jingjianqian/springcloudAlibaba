@@ -12,7 +12,9 @@
     <groupId>com.ucap.ms</groupId>
     <artifactId>platform-service</artifactId>
 
-
+    <modules>
+        <module>../platform-common</module>
+    </modules>
 
     <dependencies>
 

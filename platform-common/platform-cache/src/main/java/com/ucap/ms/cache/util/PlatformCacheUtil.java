@@ -13,10 +13,10 @@ public class PlatformCacheUtil {
 	 * @return CacheService实例
 	 */
 //	public static <T> CacheService<T> getCache(String appName) {
-//		String cacheStrategy = CacheConfig.cacheStrategy;
+//		String cacheStrategy = CommonCacheConfig.cacheStrategy;
 //		if ("redis".equals(cacheStrategy)) {
-//			String redisIps = CacheConfig.redisIp;
-//			if(Tools.checkEmpty(redisIps)) {
+//			String redisIps = CommonCacheConfig.redisIp;
+//			if(BaseTools.checkEmpty(redisIps)) {
 //				logger.error("redis缓存服务器不能为空");
 //			}
 //			CacheService service = serviceMap.get(appName);
@@ -31,9 +31,7 @@ public class PlatformCacheUtil {
 //		return null;
 //	}
 
-	public static  String  getCache(String appName) {
-		return null;
-	}
+
 
 
 }

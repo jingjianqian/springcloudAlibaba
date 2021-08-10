@@ -23,15 +23,6 @@ public class ApproveAuditItemApi {
     @Resource
     ApproveAuditItemsSourceApi approveAuditItemsSourceApi;
 
-    private static final String GRANT_TYPE = "grant_type";
-    private static final String GRANT_TYPE_VALUE = "client_credentials";
-    private static final String CLIENT_ID = "client_id";
-    //private static final String CLIENT_ID_VALUE = "c185efc2-3d71-41c7-89f4-efff1a156428";
-    private static final String CLIENT_ID_VALUE = "c185efc2-3d71-41c7-89f4-efff1a156428";
-    private static final String CLIENT_SECRET = "client_secret";
-    //private static final String CLIENT_SECRET_VALUE = "f6817738-cb3a-4a3b-9792-cd7edc9d62a3";
-    private static final String CLIENT_SECRET_VALUE = "f6817738-cb3a-4a3b-9792-cd7edc9d62a3";
-    private final String KEY_AUDIT_ITEM_API_TOKEN = "audit_item_api_token";
 
     @Resource
     RestTemplate restTemplate;
@@ -44,7 +35,7 @@ public class ApproveAuditItemApi {
     public String getAccessToken(Boolean refreshToken){
         try {
             if(!Boolean.TRUE.equals(refreshToken)){
-                String accessToken  = (String) CommonCacheUtil.getCache(CacheCodeEnum.INNERWEB.getValue()).get(KEY_AUDIT_ITEM_API_TOKEN);
+                String accessToken  = (String) CommonCacheUtil.getCache(CacheCodeEnum.INNERWEB.getValue()).get(configClientController.getKEY_AUDIT_ITEM_API_TOKEN());
                 if(accessToken !=null){
                     return accessToken;
                 }

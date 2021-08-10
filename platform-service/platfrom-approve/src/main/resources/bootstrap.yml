@@ -16,7 +16,7 @@ spring:
         encode: UTF-8
   devtools:
     restart:
-      additional-paths: /src/main
+      additional-paths: platform-approve/src/main/*
       enabled: false
 
 

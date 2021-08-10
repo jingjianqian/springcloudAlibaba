@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * nacos 自带ribon
+ * nacos 自带ribbon
  */
 @Configuration
 public class ApplicationContextConfig {
