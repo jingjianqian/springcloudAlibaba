@@ -5,12 +5,34 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/platform-service/platfrom-approve/pom.xml" />
-        <option value="$PROJECT_DIR$/platform-service/platform-auth/pom.xml" />
+        <option value="$PROJECT_DIR$/mailcentor/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/api-common/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-consumer-oerder83/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-provider-payment9001/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-provider-payment9002/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-common/platform-base/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-common/platform-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-common/pom.xml" />
+        <option value="$PROJECT_DIR$/platform-service/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/provider-payment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/server-eureka7001/pom.xml" />
+        <option value="$PROJECT_DIR$/server-eureka7002/pom.xml" />
+        <option value="$PROJECT_DIR$/web-service/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
   </component>
 </project>

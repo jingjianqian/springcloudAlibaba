@@ -2,34 +2,7 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/api-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/api-common/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/consumer-order80/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/consumer-order80/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-consumer-oerder83/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-consumer-oerder83/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-provider-payment9001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-provider-payment9001/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-provider-payment9002/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/nacos-provider-payment9002/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-common/platform-base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-common/platform-base/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-common/platform-cache/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-common/platform-cache/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-service/platform-auth/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-service/platform-auth/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/platform-service/platfrom-approve/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider-payment8001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider-payment8001/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider-payment8002/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider-payment8002/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-eureka7001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-eureka7001/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-eureka7002/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/server-eureka7002/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service/platform-inner-web/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/web-service/platform-inner-web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mailcentor/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
