@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,31 +9,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="platform-inner-web" />
-        <module name="mailcentor" />
+        <module name="mailCentor" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="api-common" target="1.8" />
-      <module name="consumer-order80" target="1.8" />
-      <module name="nacos-consumer-oerder83" target="1.8" />
-      <module name="nacos-provider-payment9001" target="1.8" />
-      <module name="nacos-provider-payment9002" target="1.8" />
-      <module name="platform-auth" target="1.8" />
-      <module name="platform-base" target="1.5" />
-      <module name="platform-cache" target="1.5" />
-      <module name="platform-common" target="1.8" />
-      <module name="platform-service" target="1.8" />
-      <module name="platfrom-approve" target="1.8" />
-      <module name="provider-payment8001" target="1.8" />
-      <module name="provider-payment8002" target="1.8" />
-      <module name="server-eureka7001" target="1.8" />
-      <module name="server-eureka7002" target="1.8" />
-      <module name="web-service" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="9" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="mailcentor" options="-parameters" />
+      <module name="mailCentor" options="-parameters" />
     </option>
   </component>
 </project>

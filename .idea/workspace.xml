@@ -22,7 +22,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心" />
+    <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
+      <change afterPath="$PROJECT_DIR$/mailCentor/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailCentor/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/mysql-schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/src/main/java/top/jingjianqian/joker/mailcentor/MailcentorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/MailCentorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailcentor/src/test/java/top/jingjianqian/joker/mailcentor/MailcentorApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-docker" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-docker/example/cluster-hostname.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/cluster-hostname.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nacos-docker/example/standalone-mysql-5.7.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/standalone-mysql-5.7.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +72,16 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/MailCentorApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mailCentor/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mailCentor/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/mysql-schema.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/nacos-docker/example/standalone-mysql-5.7.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -69,6 +100,8 @@
     </option>
   </component>
   <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+    <option name="runMavenInBackground" value="false" />
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="1qVtFxsZF8zscEb9TBFKy6taiCF" />
@@ -84,31 +117,40 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mailCentor/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33908045" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\java" />
-      <recent name="D:\my\code\java\springcloudAlibaba\platform-service" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.jingjianqian.springcloud.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\code\java\springcloudAlibaba\mailCentor\src\main\resources" />
       <recent name="D:\my\code\java\springcloudAlibaba\platform-common\platform-base\src\main\java\com\ucap\ms\base" />
       <recent name="D:\my\code\java\springcloudAlibaba\platform-common\platform-cache\src\main\java\com\ucap\ms\cache" />
       <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\resources" />
       <recent name="D:\my\code\java\springcloudAlibaba\nacos-provider-payment9001\src\main\resources" />
-      <recent name="D:\my\code\java\springcloudAlibaba\nacos-provider-payment9001\src\main\java\top\jingjianqian\springcloudalibaba" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\java" />
+      <recent name="D:\my\code\java\springcloudAlibaba\platform-service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ucap.ms.approve.config" />
@@ -116,9 +158,6 @@
       <recent name="com.ucap.ms.approve.exception" />
       <recent name="com.ucap.ms.approve.api.payload" />
       <recent name="com.ucap.ms.base.utils" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="top.jingjianqian.springcloud.entities" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,29 +168,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment">
-    <configuration name="OrderMain83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.jingjianqian.alibaba.nacos.OrderMain83" />
-      <module name="nacos-consumer-oerder83" />
+  <component name="RunManager" selected="Spring Boot.MailCentorApplication">
+    <configuration name="MailCentorApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mailCentor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.jingjianqian.alibaba.nacos.*" />
+          <option name="PATTERN" value="top.joker.mailcentor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springcloudalibaba.ServerApp" />
-      <module name="nacos-provider-payment9002" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springcloudalibaba.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="top.joker.mailcentor" />
+      <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.MailCentorApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,6 +207,21 @@
     <configuration name="EurekaServerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="server-eureka7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.jingjianqian.eureka.springcloud.EurekaServerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailCentorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="mailCentor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.joker.mailcentor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.joker.mailcentor.MailCentorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,11 +297,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.OrderMain83" />
-      <item itemvalue="Application.ServerApp (1)" />
       <item itemvalue="Docker.example/standalone-mysql-5.7.yaml: Compose Deployment" />
       <item itemvalue="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" />
       <item itemvalue="JAR Application.platfrom-approve-1.0-SNAPSHOT.jar" />
+      <item itemvalue="JUnit.MailCentorApplicationTests" />
       <item itemvalue="Spring Boot.ApproveServer" />
       <item itemvalue="Spring Boot.ServerApp" />
       <item itemvalue="Spring Boot.ServerApp (1)" />
@@ -269,14 +311,15 @@
       <item itemvalue="Spring Boot.EurekaApp" />
       <item itemvalue="Spring Boot.Payment2App" />
       <item itemvalue="Spring Boot.MailcentorApplication" />
+      <item itemvalue="Spring Boot.MailCentorApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MailCentorApplication" />
+        <item itemvalue="JUnit.MailCentorApplicationTests" />
         <item itemvalue="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" />
         <item itemvalue="Docker.example/standalone-mysql-5.7.yaml: Compose Deployment" />
         <item itemvalue="JAR Application.platfrom-approve-1.0-SNAPSHOT.jar" />
-        <item itemvalue="Application.OrderMain83" />
-        <item itemvalue="Application.ServerApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +381,10 @@
       <workItem from="1661905054047" duration="7597000" />
       <workItem from="1661995404163" duration="824000" />
       <workItem from="1669441811504" duration="7456000" />
-      <workItem from="1669460991108" duration="1157000" />
+      <workItem from="1669460991108" duration="1944000" />
+      <workItem from="1669463689292" duration="1646000" />
+      <workItem from="1669470486812" duration="198000" />
+      <workItem from="1669528977806" duration="2224000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
@@ -415,6 +461,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="springboot基本的CURD功能实现" />
     <MESSAGE value="服务发现之nacos" />
     <MESSAGE value="服务发现之nacos-集群" />

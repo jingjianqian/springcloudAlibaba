@@ -8,18 +8,18 @@
         <version>3.0.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>top.jingjianqian.joker</groupId>
-    <artifactId>mailcentor</artifactId>
+    <groupId>top.joker</groupId>
+    <artifactId>mailCentor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mailcentor</name>
-    <description>mailcentor</description>
+    <name>mailCentor</name>
+    <description>mailCentor</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>19</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <dependency>
