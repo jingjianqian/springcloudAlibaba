@@ -1,9 +1,9 @@
 server:
   port : 8081
 spring:
-  application:
-    # active: default
-    name: mailCentor
+#  application:
+#    # active: default
+#    name: mailCentor
   mail:
     host: smtp.163.com
     username: 18697998680@163.com
