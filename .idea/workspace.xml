@@ -23,15 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
-      <change afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyMailSender.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/mysql-schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailCentor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/ application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-docker" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-docker/example/cluster-hostname.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/cluster-hostname.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" afterDir="false" />
@@ -145,6 +145,9 @@
       <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\java" />
       <recent name="D:\my\code\java\springcloudAlibaba\platform-service" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="top.joker.mailcentor" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ucap.ms.approve.config" />
       <recent name="com.ucap.ms.base.exception" />
@@ -161,7 +164,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MailCentorApplicationTests">
+  <component name="RunManager" selected="JUnit.MailCentorApplicationTests.contextLoads">
     <configuration name="MailHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.handler.MailHandler" />
       <module name="mailCentor" />
@@ -186,6 +189,22 @@
       <option name="PACKAGE_NAME" value="top.joker.mailcentor" />
       <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.MailCentorApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MailCentorApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mailCentor" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.joker.mailcentor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="top.joker.mailcentor" />
+      <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.MailCentorApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -277,14 +296,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="example/standalone-mysql-5.7.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="nacos-docker/example/standalone-mysql-5.7.yaml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration name="example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -300,7 +311,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.MailHandler" />
-      <item itemvalue="Docker.example/standalone-mysql-5.7.yaml: Compose Deployment" />
       <item itemvalue="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" />
       <item itemvalue="JUnit.MailCentorApplicationTests" />
       <item itemvalue="Spring Boot.ApproveServer" />
@@ -314,14 +324,15 @@
       <item itemvalue="Spring Boot.Payment2App" />
       <item itemvalue="Spring Boot.MailcentorApplication" />
       <item itemvalue="Spring Boot.MailCentorApplication" />
+      <item itemvalue="JUnit.MailCentorApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MailCentorApplicationTests.contextLoads" />
         <item itemvalue="JUnit.MailCentorApplicationTests" />
         <item itemvalue="Application.MailHandler" />
         <item itemvalue="Spring Boot.MailCentorApplication" />
         <item itemvalue="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" />
-        <item itemvalue="Docker.example/standalone-mysql-5.7.yaml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -390,6 +401,7 @@
       <workItem from="1669609939330" duration="3531000" />
       <workItem from="1669631945543" duration="712000" />
       <workItem from="1669632726719" duration="1438000" />
+      <workItem from="1669698376553" duration="4129000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
