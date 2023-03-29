@@ -23,26 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
-      <change afterPath="$PROJECT_DIR$/wechat/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/WechatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/handler/MailHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/test/java/top/joker/wechat/WechatApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/test/resources/ application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/test/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/MailCentorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/wechat/MailCentorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/wechat/handler/MailHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MailCentorApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyMailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MyMailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +101,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "19",
     "last_opened_file_path": "D:/data/code/back/java/springcloudAlibaba/wechat",
@@ -123,7 +112,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.11730013",
+    "project.structure.side.proportion": "0.33506685",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -164,7 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MailCentorApplication">
+  <component name="RunManager" selected="Spring Boot.WechatApplication">
     <configuration name="MailHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.joker.wechat.handler.MailHandler" />
       <module name="mailCentor" />
@@ -296,6 +289,8 @@
       </method>
     </configuration>
     <configuration name="WechatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="wechat" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.joker.wechat.WechatApplication" />
       <method v="2">
@@ -410,7 +405,7 @@
       <workItem from="1669632726719" duration="1438000" />
       <workItem from="1669698376553" duration="4129000" />
       <workItem from="1680009636547" duration="391000" />
-      <workItem from="1680048767017" duration="499000" />
+      <workItem from="1680048767017" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
