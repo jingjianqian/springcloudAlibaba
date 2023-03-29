@@ -1,4 +1,4 @@
-package top.joker.mailcentor.handler;
+package top.joker.wechat.handler;
 
 import org.springframework.stereotype.Controller;
 

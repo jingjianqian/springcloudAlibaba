@@ -23,19 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
-      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyMailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/mysql-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/WechatApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/handler/MailHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/test/java/top/joker/wechat/WechatApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/test/resources/ application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/test/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/test/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/ application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-docker" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-docker/example/cluster-hostname.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/cluster-hostname.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nacos-docker/example/standalone-mysql-5.7.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/nacos-docker/example/standalone-mysql-5.7.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/MailCentorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/wechat/MailCentorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/handler/MailHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/main/java/top/joker/wechat/handler/MailHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MailCentorApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MyMailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MyMailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,14 +73,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/mailCentor/src/main/java/top/joker/mailcentor/MailCentorApplication.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/mailCentor/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mailCentor/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/Dockerfile" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/nacos-docker/example/image/mysql/5.7/mysql-schema.sql" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/nacos-docker/example/standalone-mysql-5.7.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mailCentor/src/main/java/top/joker/wechat/MailCentorApplication.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mailCentor/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mailCentor/src/test/java/top/joker/wechat/MailCentorApplicationTests.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/mailCentor/src/test/java/top/joker/mailcentor/MailCentorApplicationTests.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,14 +85,15 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\data\appsData\code\maven" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apps/code/tools/apache-maven-3.5.0" />
-        <option name="userSettingsFile" value="E:\apps\code\tools\apache-maven-3.5.0\conf\settings.xml" />
+        <option name="localRepository" value="D:\data\appsDatas\code\maven" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../apps/code/tools/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apps\code\tools\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="vmOptionsForImporter" value="-Xmx768m" />
+        <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -109,24 +114,19 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mailCentor/src/test" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.33908045" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "D:/data/code/back/java/springcloudAlibaba/wechat",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -135,11 +135,11 @@
       <recent name="top.jingjianqian.springcloud.entities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data\code\back\java\springcloudAlibaba\wechat" />
       <recent name="E:\code\java\springcloudAlibaba\mailCentor\src\test" />
       <recent name="E:\code\java\springcloudAlibaba\mailCentor\src\main\resources" />
       <recent name="D:\my\code\java\springcloudAlibaba\platform-common\platform-base\src\main\java\com\ucap\ms\base" />
       <recent name="D:\my\code\java\springcloudAlibaba\platform-common\platform-cache\src\main\java\com\ucap\ms\cache" />
-      <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\my\code\java\springcloudAlibaba\platform-service\platfrom-approve\src\main\java" />
@@ -164,13 +164,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MailCentorApplicationTests.contextLoads">
+  <component name="RunManager" selected="Spring Boot.MailCentorApplication">
     <configuration name="MailHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.handler.MailHandler" />
+      <option name="MAIN_CLASS_NAME" value="top.joker.wechat.handler.MailHandler" />
       <module name="mailCentor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.joker.mailcentor.handler.*" />
+          <option name="PATTERN" value="top.joker.wechat.handler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +182,12 @@
       <module name="mailCentor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.joker.mailcentor.*" />
+          <option name="PATTERN" value="top.joker.wechat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top.joker.mailcentor" />
-      <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.MailCentorApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="top.joker.wechat.MailCentorApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -197,12 +197,12 @@
       <module name="mailCentor" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.joker.mailcentor.*" />
+          <option name="PATTERN" value="top.joker.wechat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="top.joker.mailcentor" />
-      <option name="MAIN_CLASS_NAME" value="top.joker.mailcentor.MailCentorApplicationTests" />
+      <option name="MAIN_CLASS_NAME" value="top.joker.wechat.MailCentorApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -210,10 +210,10 @@
       </method>
     </configuration>
     <configuration name="ApproveServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="platfrom-approve" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ucap.ms.approve.ApproveServer" />
       <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -234,15 +234,14 @@
     </configuration>
     <configuration name="MailCentorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mailCentor" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.joker.wechat.MailCentorApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.joker.mailcentor.*" />
+          <option name="PATTERN" value="top.joker.wechat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="top.joker.mailcentor.MailCentorApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -296,6 +295,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WechatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="wechat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.joker.wechat.WechatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -313,6 +319,8 @@
       <item itemvalue="Application.MailHandler" />
       <item itemvalue="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" />
       <item itemvalue="JUnit.MailCentorApplicationTests" />
+      <item itemvalue="JUnit.MailCentorApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.WechatApplication" />
       <item itemvalue="Spring Boot.ApproveServer" />
       <item itemvalue="Spring Boot.ServerApp" />
       <item itemvalue="Spring Boot.ServerApp (1)" />
@@ -324,14 +332,13 @@
       <item itemvalue="Spring Boot.Payment2App" />
       <item itemvalue="Spring Boot.MailcentorApplication" />
       <item itemvalue="Spring Boot.MailCentorApplication" />
-      <item itemvalue="JUnit.MailCentorApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MailCentorApplication" />
         <item itemvalue="JUnit.MailCentorApplicationTests.contextLoads" />
         <item itemvalue="JUnit.MailCentorApplicationTests" />
         <item itemvalue="Application.MailHandler" />
-        <item itemvalue="Spring Boot.MailCentorApplication" />
         <item itemvalue="Docker.example/standalone-mysql-5.7.yaml.mysql: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -402,6 +409,8 @@
       <workItem from="1669631945543" duration="712000" />
       <workItem from="1669632726719" duration="1438000" />
       <workItem from="1669698376553" duration="4129000" />
+      <workItem from="1680009636547" duration="391000" />
+      <workItem from="1680048767017" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
@@ -475,7 +484,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

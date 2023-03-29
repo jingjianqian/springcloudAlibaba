@@ -1,4 +1,4 @@
-package top.joker.mailcentor;
+package top.joker.wechat;
 
 public class MyConfig {
 //    @Bean

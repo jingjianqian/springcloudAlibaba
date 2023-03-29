@@ -1,4 +1,4 @@
-package top.joker.mailcentor;
+package top.joker.wechat;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

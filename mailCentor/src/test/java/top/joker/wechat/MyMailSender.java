@@ -1,4 +1,4 @@
-package top.joker.mailcentor;
+package top.joker.wechat;
 
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
