@@ -23,10 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/WxLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/WxLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/WxLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -407,7 +406,8 @@
       <workItem from="1680009636547" duration="391000" />
       <workItem from="1680048767017" duration="1927000" />
       <workItem from="1680065267744" duration="1130000" />
-      <workItem from="1680077310518" duration="7233000" />
+      <workItem from="1680077310518" duration="8251000" />
+      <workItem from="1680136222226" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>

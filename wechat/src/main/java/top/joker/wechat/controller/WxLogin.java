@@ -2,17 +2,17 @@ package top.joker.wechat.controller;
 
 
 import com.alibaba.fastjson.JSONObject;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/wx")
 public class WxLogin {
-    @GetMapping ("/Login")
-    public String login(@RequestBody(required = false) JSONObject data){
+    @PostMapping(value="/Login", produces = MediaType.APPLICATION_JSON_VALUE)
+    public JSONObject login(@RequestBody JSONObject data){
         System.out.println(data);
-        return "1";
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("code",data.getString("code"));
+        return jsonObject;
     }
 }
