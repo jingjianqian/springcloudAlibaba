@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: wechat
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.112:8848
+        namespace: wechat
+      config:
+        file-extension: yaml
+#        namespace: wechat
+#        group: wechat
+#        refreshable-dataids: wechat
+        server-addr: 192.168.1.112:8848
+

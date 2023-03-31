@@ -28,10 +28,10 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!--    spring-cloud alibaba   配置中心   -->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
         <!--    spring-cloud alibaba   服务注册与发现   -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

@@ -1,0 +1,34 @@
+server:
+  port : 8081
+spring:
+  application:
+    # active: default
+    name: wechat
+  mail:
+    host: smtp.163.com
+    username: 18697998680@163.com
+    password:
+    protocol: smtp
+    default-encoding: UTF-8
+    properties:
+      mail:
+       smtp:
+         auth: true
+         starttls:
+           enable: true
+           required: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.112:8848
+
+        namespace: wechat
+      config:
+        file-extension: yml
+        namespace: wechat
+        group: wechat
+        refreshable-dataids: wechat
+        server-addr: 192.168.1.112:8848
+#        username: nacos
+#        password: Jing.jianqian2334
+
