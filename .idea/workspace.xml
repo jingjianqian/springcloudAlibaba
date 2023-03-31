@@ -23,14 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e553927-f0c6-4982-92d9-5891fa3711c4" name="Default Changelist" comment="以nacos作为配置中心">
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wechat/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/config/Configs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/WechatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/WechatApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/ConfigController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/WxLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/WxLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -415,7 +411,7 @@
       <workItem from="1680136222226" duration="1408000" />
       <workItem from="1680173719270" duration="6856000" />
       <workItem from="1680222442489" duration="3311000" />
-      <workItem from="1680237145725" duration="3414000" />
+      <workItem from="1680237145725" duration="7305000" />
     </task>
     <task id="LOCAL-00001" summary="springboot基本的CURD功能实现">
       <created>1617255336537</created>
@@ -506,7 +502,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/platform-service/platfrom-approve/src/main/java/com/ucap/ms/approve/ApproveServer.java</url>
           <line>15</line>
-          <properties class="com.ucap.ms.approve.ApproveServer" method="main">
+          <properties class="com.ucap.ms.approve.ApproveServer">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="26" />
@@ -515,6 +511,11 @@
           <url>file://$PROJECT_DIR$/platform-common/platform-base/src/main/java/com/ucap/ms/base/utils/BaseValidUtil.java</url>
           <line>313</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wechat/src/main/java/top/joker/wechat/controller/WxLogin.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
