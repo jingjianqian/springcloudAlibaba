@@ -14,4 +14,9 @@ spring:
 #        group: wechat
 #        refreshable-dataids: wechat
         server-addr: 192.168.1.112:8848
-
+ribbon:
+  http:
+    client:
+      enabled: false
+  okhttp:
+    enabled: true
